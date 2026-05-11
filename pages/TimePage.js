@@ -15,6 +15,7 @@ class TimePage extends BasePage {
     this.pendingSection = page.getByText('Timesheets Pending Action');
 
     this.recordsText = page.getByText('Records Found');
+
   }
 
   async validateTimePageLoaded() {
